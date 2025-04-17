@@ -1,0 +1,31 @@
+# UTF-8
+VSVersionInfo(
+    ffi=FixedFileInfo(
+        filevers=(1, 0, 0, 0),  # File version: Major.Minor.Build.Revision
+        prodvers=(1, 0, 0, 0),  # Product version: Major.Minor.Build.Revision
+        mask=0x3f,              # File flags mask
+        flags=0x0,              # File flags
+        OS=0x4,                 # Operating system: NT-based
+        fileType=0x1,           # File type: Application
+        subtype=0x0,            # Subtype: None
+        date=(0, 0)             # Build date: Not specified
+    ),
+    kids=[
+        StringFileInfo(
+            [
+                StringTable(
+                    '040904B0',  # Language and code page: US English, Unicode
+                    [
+                        StringStruct('CompanyName', 'Yaruchi Aoki'),
+                        StringStruct('FileDescription', 'Bar Graph Editor - A tool for creating and customizing bar graphs'),
+                        StringStruct('ProductName', 'Bar Graph Editor'),
+                        StringStruct('OriginalFilename', 'BarGraphEditor.exe'),
+                        StringStruct('LegalCopyright', 'Copyright © 2025 Yaruchi Aoki. All rights reserved.'),
+                        StringStruct('Comments', 'Version 1.0.0 - Initial release of the Bar Graph Editor.')
+                    ]
+                )
+            ]
+        ),
+        VarFileInfo([VarStruct('Translation', [1033, 1200])])  # US English, Unicode
+    ]
+)
