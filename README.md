@@ -38,6 +38,14 @@ The executable includes embedded metadata for system information and versioning:
 4. Toggle visibility of grid lines, values, and labels.
 5. Export the graph to a PNG image for use in reports or presentations.
 
+## Known Issues
+
+This app is still in development and may contain some bugs or errors.  
+However, it is fully functional for generating and saving bar graphs.  
+We are actively working on improving the app, and your feedback is always welcome.
+
+Please report any issues you encounter or suggestions for improvement.
+
 ## License
 
 This project is open-source under the **MIT License**.  
